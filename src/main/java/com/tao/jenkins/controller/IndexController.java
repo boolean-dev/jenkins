@@ -15,6 +15,6 @@ public class IndexController {
 
     @RequestMapping("/*")
     public String index() {
-        return "index";
+        return "index, 容器更新";
     }
 }
